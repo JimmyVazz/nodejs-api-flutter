@@ -1,0 +1,77 @@
+#Api node
+
+backend/.env
+backend/node_modules
+
+#Flutter app
+
+# Miscellaneous
+userapp/*.class
+userapp/*.log
+userapp/*.pyc
+userapp/*.swp
+userapp/.DS_Store
+userapp/.atom/
+userapp/.buildlog/
+userapp/.history
+userapp/.svn/
+
+# IntelliJ related
+userapp/*.iml
+userapp/*.ipr
+userapp/*.iws
+userapp/.idea/
+
+# Visual Studio Code related
+userapp/.vscode/
+
+# Flutter/Dart/Pub related
+userapp/**/doc/api/
+userapp/.dart_tool/
+userapp/.flutter-plugins
+userapp/.packages
+userapp/.pub-cache/
+userapp/.pub/
+userapp/build/
+
+# Android related
+userapp/**/android/**/gradle-wrapper.jar
+userapp/**/android/.gradle
+userapp/**/android/captures/
+userapp/**/android/gradlew
+userapp/**/android/gradlew.bat
+userapp/**/android/local.properties
+userapp/**/android/**/GeneratedPluginRegistrant.java
+
+# iOS/XCode related
+userapp/**/ios/**/*.mode1v3
+userapp/**/ios/**/*.mode2v3
+userapp/**/ios/**/*.moved-aside
+userapp/**/ios/**/*.pbxuser
+userapp/**/ios/**/*.perspectivev3
+userapp/**/ios/**/*sync/
+userapp/**/ios/**/.sconsign.dblite
+userapp/**/ios/**/.tags*
+userapp/**/ios/**/.vagrant/
+userapp/**/ios/**/DerivedData/
+userapp/**/ios/**/Icon?
+userapp/**/ios/**/Pods/
+userapp/**/ios/**/.symlinks/
+userapp/**/ios/**/profile
+userapp/**/ios/**/xcuserdata
+userapp/**/ios/.generated/
+userapp/**/ios/Flutter/App.framework
+userapp/**/ios/Flutter/Flutter.framework
+userapp/**/ios/Flutter/Generated.xcconfig
+userapp/**/ios/Flutter/app.flx
+userapp/**/ios/Flutter/app.zip
+userapp/**/ios/Flutter/flutter_assets/
+userapp/**/ios/ServiceDefinitions.json
+userapp/**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Exceptions to above rules.
+userapp/!**/ios/**/default.mode1v3
+userapp/!**/ios/**/default.mode2v3
+userapp/!**/ios/**/default.pbxuser
+userapp/!**/ios/**/default.perspectivev3
+userapp/!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
